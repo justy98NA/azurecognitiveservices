@@ -10,6 +10,7 @@
     - query: read-only
 
 ### 2. Create an index
+- [Link to Pythons SDK samples on GitHub](https://github.com/Azure/azure-sdk-for-python/tree/main)
 
 
 

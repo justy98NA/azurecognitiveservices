@@ -26,4 +26,12 @@ def create_index():
     result = client.create_index(index)
     print(result)
 
-create_index()
+# Check if index exists before crating 
+index_exists = client.list_index_names()
+if "demo-index" in index_exists:
+    print("Index already exists")
+else:
+    print("Creating index")
+    create_index()
+
+
