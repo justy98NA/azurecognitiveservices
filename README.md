@@ -1,4 +1,4 @@
-# Step by step explanation of implementing enterprise chatbot using ChatGPT and Azure
+# Step by step explanation of implementing Azure Cognitive Search 
 
 ### 1. Create Azure Cognitive Search
 - 
@@ -9,8 +9,9 @@
     - admin: read-write
     - query: read-only
 
-### 2. Create an index
+### 2. Create/update/delete an index/indexer/documents
 - [Link to Pythons SDK samples on GitHub](https://github.com/Azure/azure-sdk-for-python/tree/main)
+- [Link to Microsoft learn overview](https://learn.microsoft.com/en-us/azure/search/samples-python)
 
 
 
